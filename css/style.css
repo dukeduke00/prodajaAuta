@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-image: url("../images/pozadina.webp");
+	height: 85vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.header h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-family: "Pacifico", cursive;
+	font-size: 5rem;
+	color: rgb(34, 34, 34);
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 50px;
+}
+
+.automobili {
+	width: 17%;
+	background-color: #f8f8f9;
+	font-family: "Quicksand", sans-serif;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.stanje {
+	display: flex;
+	background-color: white;
+	font-size: 0.9rem;
+}
+
+.auto {
+	width: 100%;
+	height: 240px;
+}
+
+.cijena {
+	color: rgb(184, 0, 0);
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.5rem;
+	margin-top: 5px;
+}
+
+.opis {
+	color: grey;
+}
